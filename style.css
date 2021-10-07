@@ -25,19 +25,22 @@ h6 {
     font-size: 20px;
     text-align: justify;
     color: #f3ecda;
-    margin-right: 400px;
-    margin-left: 400px;
+    margin-right: 180px;
+    margin-left: 180px;
   }
 
 h5 {
   font-size: 15px;
   text-align: justify;
   color: #f3ecda;
-  margin-right: 450px;
-  margin-left: 450px;
+  margin-right: 350px;
+  margin-left: 350px;
   }
 
-
+#legend {
+  margin-right: 50px;
+  margin-left: -60px;
+}
 
 #mapid { 
   height: 800px;
@@ -62,19 +65,6 @@ h4 {
 }
 
 
-#timeline {
-  font-size: 18px;
-  color: #f3ecda;
-  background-color: #100f0d;
-  text-align: center;
-}
-
-
-.NetworkChart { grid-area: righttop;}
-.item2 { grid-area: menu; }
-.item3 { grid-area: main; margin-left: 60px; margin-right: 60px;}
-.item4 { grid-area: right; margin-left: 60px; margin-right: 60px; padding-top: 60px;}
-/* .item5 { grid-area: footer; text-align: center; color: turquoise;} */
 a {font-size: 18px; color: white;} 
 
 .grid-container {
