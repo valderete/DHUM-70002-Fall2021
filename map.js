@@ -6,7 +6,7 @@ const width = window.innerWidth,
   margin = { top: 20, bottom: 20, left: 60, right: 60 };
 
 // LOAD DATA
-d3.csv('../data/Westside_Sound_map.csv', d3.autoType)
+d3.csv('./data/Westside_Sound_map.csv', d3.autoType)
 .then(data => {
   console.log("map data loaded", data);
 
